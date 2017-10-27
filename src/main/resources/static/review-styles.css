@@ -1,0 +1,46 @@
+body {
+	background-image: radial-gradient(circle at center, #f2f4f7, rgb(5, 69, 173)); 
+	bakcground-repeat: none;
+	background-size: cover;
+	
+	
+}
+
+h1 {
+	color: #32292F;
+	font-family: Georgia, serif;
+}
+
+h2 {
+	color: #575366;
+	font-family: "Times New Roman", Times, serif; 
+}
+
+img {
+	max-width: 50%;
+	max-height: auto;
+}
+
+
+#home-page {
+	background-image: radial-gradient(circle at center, rgba(127, 127, 255, 0.75), #D1E3DD), url("/images/movie-reel.jpg");
+	background-size: cover;
+	background-opacity: 0.25;
+}
+
+#img-resize	{
+	max-height: 25%;
+}
+
+a {
+	font-family: Serif;
+	font-color: #6E7DAB;
+	
+	
+	}
+section{
+	text-align: center;
+	font-size: 135%;
+	
+}
+	
