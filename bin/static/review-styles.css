@@ -1,46 +1,56 @@
 body {
-	background-image: radial-gradient(circle at center, #f2f4f7, rgb(5, 69, 173)); 
+	background-image: radial-gradient(circle at center, #f2f4f7, rgb(5, 69, 173));
 	bakcground-repeat: none;
 	background-size: cover;
-	
-	
+}
+
+.box{
+    display: none;
+    width: 100%;
+}
+
+a {
+	font-family: Georgia, serif;
+	font-color: #BBA88F;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
 }
 
 h1 {
 	color: #32292F;
-	font-family: Georgia, serif;
+	font-family: Georgia;
+	
 }
 
 h2 {
 	color: #575366;
-	font-family: "Times New Roman", Times, serif; 
+	font-family: "Times New Roman", Times, serif;
 }
 
 img {
-	max-width: 50%;
-	max-height: auto;
+	max-width: 500px;
+	max-height: 500px;
 }
 
-
 #home-page {
-	background-image: radial-gradient(circle at center, rgba(127, 127, 255, 0.75), #D1E3DD), url("/images/movie-reel.jpg");
+	background-image: radial-gradient(circle at center, rgba(63,53,57, 0.75),
+		#F4F3F4), url("/images/movie-reel.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-opacity: 0.25;
 }
 
-#img-resize	{
+#img-resize {
 	max-height: 25%;
 }
 
-a {
-	font-family: Serif;
-	font-color: #6E7DAB;
-	
-	
-	}
-section{
+section {
 	text-align: center;
 	font-size: 135%;
-	
 }
-	
