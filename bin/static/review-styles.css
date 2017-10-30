@@ -1,73 +1,73 @@
-a {
-	border: 2px solid #F4F3F4;
-	color: #7A6D67;
-	font-family: Georgia;
-}
+	a {
+		border: 2px solid #F4F3F4;
+		color: #7A6D67;
+		font-family: Georgia;
+	}
 
-a:link {
-	text-decoration: none;
-}
+	a:link {
+		text-decoration: none;
+	}
 
-a:visited {
-	color: #7A6D67;
-}
+	a:visited {
+		color: #7A6D67;
+	}
 
-a:hover {
-	color: #BBA88F;
-	font-size: 115%;
-	border: 2px solid #F4F3F4;
-	border-radius: 5px;
-}
+	a:hover {
+		color: #BBA88F;
+		font-size: 115%;
+		border: 2px solid #F4F3F4;
+		border-radius: 5px;
+	}
 
-a:active {
-	color: #F4F3F4;
-}
+	a:active {
+		color: #F4F3F4;
+	}
 
-body {
-	background-image: radial-gradient(circle at center, rgba(63, 53, 57, 0.75),
-		#F4F3F4), url("/images/movie-reel.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-opacity: 0.35;
-}
+	body {
+		background-image: radial-gradient(circle at center, rgba(63, 53, 57, 0.75),
+			#F4F3F4), url("/images/movie-reel.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-opacity: 0.35;
+	}
 
-h1 {
-	background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
-	border-radius: 10px;
-	border: 2px solid #F4F3F4;
-	padding: 10px;
-	width: relative;
-	text-align: center;
-}
+	h1 {
+		background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
+		border-radius: 10px;
+		border: 2px solid #F4F3F4;
+		padding: 10px;
+		width: relative;
+		text-align: center;
+	}
 
-h2 {
-	color: #3F3539;
-	font-family: Times New Roman;
-	font-size: 150%;
-}
+	h2 {
+		color: #3F3539;
+		font-family: Times New Roman;
+		font-size: 150%;
+	}
 
-img {
-	border-radius: 15px;
-	float: left;
-	max-width: 500px;
-	max-height: 500px;
-	max-width: 500px;
-	max-width: 500px;
-}
+	img {
+		border-radius: 15px;
+		float: left;
+		max-width: 500px;
+		max-height: 500px;
+		max-width: 500px;
+		max-width: 500px;
+	}
 
-p {
-	color: #3F3539;
-	font-size: 1.25em;
-}
+	p {
+		color: #3F3539;
+		font-size: 1.25em;
+	}
 
-section {
-	text-align: center;
-	font-size: 1.25em;
-}
+	section {
+		text-align: center;
+		font-size: 1.25em;
+	}
 
-#back {
-	font-size: 150%;
-	text-align: center;
-}
+	#back {
+		font-size: 150%;
+		text-align: center;
+	}
