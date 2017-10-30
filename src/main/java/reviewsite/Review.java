@@ -8,7 +8,7 @@ public class Review {
 	private String category;
 	private String content;
 
-	public Review(long id, String title, String images, String content, String category) {
+	public Review(long id, String title, String images, String category, String content) {
 		super();
 		this.id = id;
 		this.title = title;

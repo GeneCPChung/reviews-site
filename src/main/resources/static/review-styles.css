@@ -1,56 +1,73 @@
-body {
-	background-image: radial-gradient(circle at center, #f2f4f7, rgb(5, 69, 173));
-	bakcground-repeat: none;
-	background-size: cover;
-}
-
-.box{
-    display: none;
-    width: 100%;
-}
-
 a {
-	font-family: Georgia, serif;
-	font-color: #BBA88F;
-}
-
-a:hover + .box,.box:hover{
-    display: block;
-    position: relative;
-    z-index: 100;
-}
-
-h1 {
-	color: #32292F;
+	border: 2px solid #F4F3F4;
+	color: #7A6D67;
 	font-family: Georgia;
-	
 }
 
-h2 {
-	color: #575366;
-	font-family: "Times New Roman", Times, serif;
+a:link {
+	text-decoration: none;
 }
 
-img {
-	max-width: 500px;
-	max-height: 500px;
+a:visited {
+	color: #7A6D67;
 }
 
-#home-page {
-	background-image: radial-gradient(circle at center, rgba(63,53,57, 0.75),
+a:hover {
+	color: #BBA88F;
+	font-size: 115%;
+	border: 2px solid #F4F3F4;
+	border-radius: 5px;
+}
+
+a:active {
+	color: #F4F3F4;
+}
+
+body {
+	background-image: radial-gradient(circle at center, rgba(63, 53, 57, 0.75),
 		#F4F3F4), url("/images/movie-reel.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-opacity: 0.25;
+	background-opacity: 0.35;
 }
 
-#img-resize {
-	max-height: 25%;
+h1 {
+	background: radial-gradient(circle at center, #F4F3F4, #7A6D67, #3F3539);
+	border-radius: 10px;
+	border: 2px solid #F4F3F4;
+	padding: 10px;
+	width: relative;
+	text-align: center;
+}
+
+h2 {
+	color: #3F3539;
+	font-family: Times New Roman;
+	font-size: 150%;
+}
+
+img {
+	border-radius: 15px;
+	float: left;
+	max-width: 500px;
+	max-height: 500px;
+	max-width: 500px;
+	max-width: 500px;
+}
+
+p {
+	color: #3F3539;
+	font-size: 1.25em;
 }
 
 section {
 	text-align: center;
-	font-size: 135%;
+	font-size: 1.25em;
+}
+
+#back {
+	font-size: 150%;
+	text-align: center;
 }

@@ -4,20 +4,18 @@
 
 <head>
 <title>Movie Reviews</title>
-<link rel="stylesheet" type="text/css" href="./review-styles.css"/>
+<link rel="stylesheet" type="text/css" href="./review-styles.css" />
 </head>
 
-<body id="home-page" >
+<body>
 	<header>
 		<h1>Midnite Owl's Movie Reviews</h1>
 	</header>
-	
+	<p>Thanks for visiting my movie review page!</p>
 	<div th:each="review: ${reviews}">
 		<h2>
-			<a th:href="@{/review(id=${review.getId()})}" th:text="${review.getTitle()}"></a>
+			<a th:href="@{/review(id=${review.id})}" th:text="${review.title}"></a>
 		</h2>
 	</div>
-
-
 </body>
 </html>
